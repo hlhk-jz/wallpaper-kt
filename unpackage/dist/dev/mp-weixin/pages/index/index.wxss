@@ -1,0 +1,115 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.homeLayout .banner {
+  width: 750rpx;
+  height: 343rpx;
+  padding: 0 30rpx;
+}
+.homeLayout .banner swiper swiper-item image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.homeLayout .bannerZONG {
+  background-color: #f9f9f9;
+  height: 80rpx;
+  width: 690rpx;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  display: flex;
+  padding: 18rpx 31rpx;
+}
+.homeLayout .bannerZONG .gonggao {
+  display: flex;
+  align-items: center;
+  width: 150rpx;
+  color: #22B48B;
+}
+.homeLayout .bannerZONG .gonggao text {
+  font-weight: 600;
+  font-size: 80%;
+}
+.homeLayout .bannerZONG .lunbo {
+  flex: 1;
+  margin: 0 20rpx;
+}
+.homeLayout .bannerZONG .lunbo swiper {
+  height: 100%;
+}
+.homeLayout .bannerZONG .lunbo swiper-item {
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.homeLayout .bannerZONG .jiantou {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeLayout .select .rightData {
+  display: flex;
+  align-items: center;
+}
+.homeLayout .select .rightData .datemsg {
+  display: inline-block;
+  margin-left: 10rpx;
+  color: #22B48B;
+}
+.homeLayout .select .content {
+  width: 720rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.homeLayout .select .content scroll-view {
+  white-space: nowrap;
+}
+.homeLayout .select .content scroll-view .img {
+  width: 200rpx;
+  height: 440rpx;
+  display: inline-block;
+  margin-right: 20rpx;
+}
+.homeLayout .select .content scroll-view .img image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.homeLayout .select .content scroll-view .img:last-child {
+  margin-right: 30rpx;
+}
+.homeLayout .ztjx {
+  padding: 30rpx 0;
+}
+.homeLayout .ztjx .righdata {
+  color: red;
+}
+.homeLayout .ztjx .imagesgg {
+  padding: 0 30rpx;
+  display: grid;
+  gap: 15rpx;
+  grid-template-columns: repeat(3, 1fr);
+}

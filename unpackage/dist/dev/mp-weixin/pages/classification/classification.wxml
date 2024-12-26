@@ -1,0 +1,1 @@
+<view class="classLayout userLayout"><header-compont wx:if="{{a}}" u-i="d701a848-0" bind:__l="__l" u-p="{{a}}"></header-compont><view class="content"><common-image wx:for="{{b}}" wx:for-item="item" u-i="{{item.a}}" bind:__l="__l" u-p="{{c}}"></common-image></view></view>

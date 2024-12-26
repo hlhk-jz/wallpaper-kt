@@ -1,0 +1,1 @@
+<view class="common-title"><view class="leftmsg"><slot name="leftmsg"></slot></view><view class="righdata"><slot name="righdata"></slot></view></view>

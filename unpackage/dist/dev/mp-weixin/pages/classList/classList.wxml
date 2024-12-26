@@ -1,0 +1,1 @@
+<view class="classListLayout"><navigator wx:for="{{a}}" wx:for-item="item" url="/pages/preview/preview" class="content"><image src="{{b}}" mode="aspectFill"></image></navigator></view>

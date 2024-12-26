@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "分类",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "header-compont": "../../components/header-compont/header-compont",
+    "common-image": "../../components/common-image/common-image"
+  }
+}
